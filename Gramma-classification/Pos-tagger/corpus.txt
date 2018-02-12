@@ -1,0 +1,42 @@
+#Imḍanen - numéraux
+yiwen /NUM
+sin   /NUM
+kraḍ  /NUM
+kuẓ   /NUM
+semmus   /NUM
+sḍis   /NUM
+sa   /NUM
+ṭam  /NUM
+tẓa  /NUM
+mraw  /NUM
+tamiḍi  /NUM
+agim    /NUM
+amelyun /NUM
+amelyaṛ /NUM
+
+#ordinaux
+amezwaru /ORD
+aneggaru /ORD
+wis /ORD
+tis /ORD
+
+# Pronoms personnels: Imqimen udmawanen
+nekk  /PPS
+nekkini /PPS
+kečč /PPS
+keččini /PPS
+kemm /PPS
+kemmini /PPS
+nekkni /PPS
+nekkenti /PPS
+kunwi /PPS
+kenwi /PPS
+kunnemti /PPS
+kennemti /PPS
+netta /PPS
+nettat /PPS
+nitni /PPS
+nitenti /PPS
+nutni /PPS
+nutenti /PPS
+
