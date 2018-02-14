@@ -1,3 +1,11 @@
+#irbiben - adjectifs:
+bu
+m
+at
+war
+tar
+yir
+
 #Imḍanen - numéraux
 yiwen /NUM
 sin   /NUM
@@ -40,3 +48,82 @@ nitenti /PPS
 nutni /PPS
 nutenti /PPS
 
+#pronoms affixes du nom ie: axxam-iw
+iw
+w
+inu
+nneɣ
+nnteɣ
+ik
+k
+inek
+nwen
+im
+m
+inem
+nkent
+is
+s
+ines
+nsen
+nsent
+nnem
+nnek
+nnes
+#affixes de noms de parenté ie: gma-tneɣ
+tneɣ
+tenteɣ
+twen
+tkent
+tsen
+tsent
+#pronoms affixes de préposition ie: seg-i, seg-k
+i
+k
+ak
+m
+am
+s
+as
+neɣ
+aneɣ
+atneɣ
+nteɣ
+anteɣ
+atenteɣ
+wen
+awen
+atwen
+kent
+akent
+atkent
+sen
+asen
+atsen
+sent
+asent
+atsent
+#pronoms affixes de verbes
+yi
+iyi
+ɣ
+aɣ
+yaɣ
+naɣ
+anaɣ
+yanaɣ
+tnaɣ
+anteɣ
+yanteɣ
+k
+ik
+ken
+iken
+t
+it
+ten
+iten
+tt
+itt
+tent
+itent
