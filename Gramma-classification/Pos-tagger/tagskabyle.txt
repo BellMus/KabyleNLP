@@ -1,0 +1,40 @@
+POS Tag                                   Description                                Example
+1. CS                                          conjonction de subordination   maca, asmi, makken
+2. CC                                            Conjonction de coordination     d, neɣ, &, akked, u
+3. NC                                            Nombre cardinal                        1, 200, kṛad 
+4. MET                                          Mot étranger                               "Bon appétit"
+5. PRP                                          Préposition                                  d, deg, ɣer, ar
+6. PPA                                          Pronom personnel                      nekk, kem, kecc...
+7. PAN                                          Pronom affixe du nom                -nneɣ -iw -w...
+8. PAP                                          Pronom affixe de préposition    -i, -k, -m...
+9. PSV                                          Pronom suffixe de verbes           wwiɣ-k, .... -k
+10. PPV                                       Pronom préfixes de verbes          ad k-awiɣ   k-
+11.  PRD                                      Pronoms démonstratifs              wagi, win, tin
+12. PRI                                         Pronoms indéfinis                       wayeḍ
+13. PRL                                       Pronom relatif                               i : win i tḥemmel
+14. NMC                                       Nom commun                             argaz, tira, azeggaɣ
+15. NMP                                       Nom propre                                 Meẓyan, Bgayet, Tizi Wezzu
+16.  ADV                                       Adverbes                                     iḍelli
+17. ADJ                                        Adjectif                                         bu, m , at, war, tar, yir, wis, tis
+18. VAI                                          Verbe Aoriste impératif
+19. VAF                                        Verbe Aoriste futur (ad)
+20. VP                                          Verbe Prétérit
+21. VPN                                        Verbe Prétérit négatif (ur + prétérit négatif+ ara)
+22. PA                                           Verbe Participe aoriste (ara + participe aoriste) 
+23. VPPP                                      Verbe Participe du prétérit positif
+24. VPPN                                      Verbe Participe du prétérit négatif (ur+participe prétérit)
+25. VII                                            Verbe Impératif intensif
+26. VAI                                           Verbe Aoriste intensif
+27. VPAIP                                      Verbe Participe aoriste intensif positif
+28. VPAIN                                      Verbe Participe aoriste intensif négatif (ur +PAIN + ara)
+29. PRN                                        Particule de négation                ara ur
+30. PRP                                        Particule de participe                ara
+31. PRA                                        Particule de l'aoriste                 ad
+32. PDS                                        particule de direction suffixe     -d, -id
+33. PDP                                        particule de direction préfixe        d-, id-
+34. PNT                                        point  finale de phrase ou paragaraphe                                         .
+35. INT                                          Intejection                                   ihuh, ahbuh, abbuh, bbuh,a, ay
+36. $                                             Symbole monétaire                     $, £
+37. %                                            Pourcentage                                %
+38. PNCT                                    Ponctuation , ; ( ) ...
+39. PREAL                                   particule de réalité           d
