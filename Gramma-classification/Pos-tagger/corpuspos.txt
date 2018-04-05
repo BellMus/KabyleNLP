@@ -86,3 +86,19 @@ yura/VP di/PRP lkaɣeḍ/NMC ./PNT
 yuli/VP ar/PRP taddart/NMC n/PRP ufella/NMC ./PNCT
 ad/PRA yelqeḍ/VAF azemmur/NMC azekka/NMC ./PNT
 ad/PRA yebɣu/VAF ad/PRA yernu/VAF ad/PRA yaru/VAF adlis/NMC ./PNT
+Tukkist/NMC seg/PRP ungal/NMC «/PNCT iḍ/NMC d/CC wass/NMC »/PNCT sɣur/PRP Ɛ.Mezdad/NMP ./PNT
+Ixf/NMC 1/NC :/PNCT
+Tasa/NMC ur/PRN tessager/VAF yiwen/NC ./PNT
+Tukkist/NMC seg/PRP ungal/NMC «/PNCT iḍ/NMC d/CC wass/NMC »/PNCT sɣur/PRP ɛ.Mezdad/NMP ./PNT
+Tasa/NMC ur/PRN tessager/VAF yiwen/NC ./PNT
+Maca/CS d/PREAL win/PRD i/PRP d-/PDP yufraren/VPPP gar/PRP tarwa/NMC -s/PAN ./PNT
+D/PREAL win/PRD i/PRL tḥemmel/VP aṭas/ADV ./PNT
+Ur/PRN tuksan/VPN ara/PRN ./PNT
+D/PREAL win/PRD i/PRL d/PREAL amenzu/NMC i/PRD tessider/VP ./PNT
+Ula/ADV d/PREAL tuccent/NMC deg/PRP umadaɣ/NMC yezga/VP yiwen/NC gar/PRP tarwa/NMC -s/PAN yufrar/VP -d/PDP ɣef/PRP wiyaḍ/PRI ./PNT
+Qqaren/VAI d/PREAL ddnub/NMC ɣef/PRP tasa/NMC ma/CC ur/PRN tessaɛdel/VPN tarwa/NMC -s/PAN ,/PNCT ma/CC tella/VP tneḥyaft/VP gar/PRP -asen/PAP ./PNT
+Neţat/PPA ddnub/NMC ur/PRN t-/PPV tewwi/VPN ara/PRN :/PNCT d/PREAL ayen/PRI ara/PRP yečč/PA wa/PRD i/PRL teţen/VAI wiyaḍ/PRI ./PNT
+D/PREAL ayen/PRI ara/PRP yels/PA i/PRL ţlusun/VAI daɣen/ADV ./PNT
+Asmi/CS meẓẓiy/ADJ d/PREAL amaɛlal/NMC kan/ADV ,/PNCT yeṛwa/VP lehlak/NMC d/PREAL axessar/NMC ./PNT
+Ulac/ADV aṭṭan/NMC ur/PRN t-/PPV nebla/VPPN ./PNT
+Ussan/NMC imenza/NMC mi/CS d-/PDP ilul/VP yedla/VP -d/PDS fell/PRP -as/PAP unezyuf/NMC ./PNT
