@@ -1,0 +1,88 @@
+
+ad/PRA yektil/VAF iɣil/NMC ./PNT
+yewwi/VP aɣrum/NMC ./PNT
+iɣil/VP yemmut/VP zik/ADV ɣef/PRP iɣil/NMC ./PNT
+iɣil/VP yečča/VP aɣrum/NMC ./PNT
+iɣil/VP ad/PRA yemmet/VAF ./PNT
+ur/PRN yessin/VAF iḍes/NMC am/ADJ uzal/NMC am/ADJ yiḍ/NMC ./PNT
+yuɣal/VP tekker/VP akk/ADV taɛrurt/NMC -is/PAN d/CC tɛenqiqt/NMC -is/PAN ./PNT
+degmi/CS i/PRL t-/PPV yessen/VP ./PNT
+yerna/VP fell/PRP -as/PAP ./PNT
+tezga/VP deg/PRP -s/PAP tafat/NMC ./PNT
+farid/NMP ./PNT
+yussa/VP -d/PDP farid/NMP ./PNT
+yussa/VP -d/PDP farid/NMP akked/CC djamila/NMP ./PNT
+farid/NMP akked/CC said/NMP ./PNT
+said/NMP ./PNT
+slimane/NMP ./PNT
+wagi/PRD d/PREAL amcum/NMC uqbiḥ/NMC ./PNT
+ass/NMC ./PNT
+yefka/VP -as/PSV -t/PSV i/PRP yemma/NMC -s/PAN ./PNT
+yefka/VP -as/PSV -d/PDS i/PRP yemma/NMC -s/PAN ./PNT
+yefka/VP -as/PSV wayeḍ/PRI ./PNT
+ur/PRN s-/PPV yefka/VPN ara/PRN aɣrum/NMC ./PNT
+makken/CS yefka/VP aɣrum/NMC i/PRP nanna/NMC ./PNT
+makken/CS yefka/VP aɣrum/NMC i/PRP said/NMP ./PNT
+makken/CS ur/PRN s-/PPV yefka/VPN ara/PRN aɣrum/NMC ./PNT
+ad/PRA yili/VAF yefka/VP aɣrum/NMC ./PNT
+yefka/VP neɣ/CC yeqqim/VP ./PNT
+yebɣa/VP ad/PRA yessew/VAF ./PNT
+netta/PPA yebɣa/VP ad/PRA yeqqu/VAF taqcict/NMC nettat/PPA tugi/VP ./PNT
+yadda/VP ad/PRA yali/VAF ./PNT
+as-/PPV yini/VAF ./PNT
+tekker/VP tmes/NMC ./PNT
+ihegga/VP ad/PRA yesrifeg/VAF ./PNT
+ad/PRA d-/PDP yefk/VAF ifki/NMC ./PNT
+ad/PRA d-/PDP yawi/VAF ./PNT
+aman/NMC isemmaḍen/NMC ./PNT
+yeswa/VP aman/NMC izeggaɣen/NMC ./PNT
+iberkanen/NMC iwraɣen/NMC ./PNT
+ad/PRA yawi/VAF iɣil/NMC ./PNT
+tin/PRD yebɣan/VP ad/PRA tagi/VAF ,./PNCT ad/PRA tagi/VAF ./PNT
+nekk/PPA bɣiɣ/VP tagi/PRD ./PNT
+yusa/VP -d/PDS baba/NMC ./PNT
+yessefk/VP ad/PRA s-/PPV yeddem/VAF afus./NMC ./PNT
+yugi/VP ad/PRA yaf/VAF ./PNT
+yekker/VP ad/PRA yeffeɣ/VAF ./PNT
+yenwa/VP ad/PRA yamen/VAF ./PNT
+yečča/VP aɣrum/NMC ./PNT
+ad/PRA yečč/VAF aɣrum/NMC ./PNT
+iwala/VP asif/NMC azedgan/NMC ./PNT
+tiqcicin/NMC d/CC yiqcicen/NMC teddun/VAI deg/PRP ubrid/NMC ./PNT
+irgazen/NMC d/CC tilawin/NMC zewǧen/VP ./PNT
+irgazen/NMC d/CC tilawin/NMC nwan/VP ad/PRA ferḥen/VAF ./PNT
+arrac/NMC d/CC yilmeẓyen/NMC bɣan/VP ad/PRA zewǧen/VAF ./PNT
+ugin/VP ad/PRA fken/VAF ./PNT
+ma/CS yusa/VP -d/PDS ,/PNCT ad/PRA d-/PDS nas/VAF ./PNT
+ma/CS ɣer/PRP tagara/NMC n/PP temlilit/NMC -agi/PAN ,/PNCT lliɣ/VP nek/PPA ad/PRA iliɣ/VAF ./PNT
+yaɣ/VS -aɣ/PPV -d/PDS ma/CS yenna/VP -d/PDS ./PNT
+aɣ-/PPV d-/PDP yaɣ/VAF ma/CS yusa/VP -d/PDS ./PNT
+yefka/VP -as/PSV -ent/PSV -id/PSV akken/CS yella/VP ./PNT
+ɣer/PRP tagara/NMC n/PP temlilit/NMC -agi/PAN ./PNT
+yella/VP -d/PDS uskasi/NMC ɣef/PRP tmedyazt/NMC -is/PAN ./PNT
+ma/CS ɣer/PRP taggara/NMC n/PP temlilit/NMC -agi/PAN ,/PNCT yella/VP -d/PDS uskasi/NMC ɣef/PRP tmedyazt/NMC -is/PAN sɣur/PRP wid/PRD iran/VP awal/NMC aẓidan/NMC ./PNT
+tusa/VP -d/PDS yemma/NMC iḍelli/ADV ./PNT
+usan/VP -d/PDS iḍelli/ADV ./PNT
+ad/PRA d-/PDP asen/VAF azekka/ADV ./PNT
+yeswa/VP 500.00/NCM DZD/$ ./PNT
+yenna/VP -d/PDS meṛṛa/ADV ayen/PRI yessen/VPPP ./PNT
+nenna/VP -d/PDS ayen/PRI nessen/VPPP ./PNT
+nečča/VP ibawen/NMC ./PNT
+ad/PRA waliɣ/VAF ayen/PRI yellan/VPPP ./PNT
+nwala/VP ayen/PRI nebɣa/VPPP ./PNT
+argaz/NMC -nni/PANJ n/PP faḍma/NMP ,/PNCT yewwi/VP -d/PDS awal/NMC ɣef/PRP tilawin/NMC ./PNT
+ad/PRA yaf/VAF afus/NMC -is/PAN ./PNT
+ad/PRA d-/PDP imudd/VAF ayen/PRI yezmer/VPPP ./PNT
+yesken/VP i/PRP bab/NMC n/PP wakal/NMC ./PNT
+yemmeslay/VP s/PRP wawal/NMC ./PNT
+yefka/VP ayen/PRI yelhan/VPPP ./PNT
+yenna/VP -d/PDS ayen/PRI yelhan/VPPP i/PRP gma/NMC -s/PAN ./PNT
+ayen/PRI zeddigen/VPPP zeddig/VP ./PNT
+win/PRI icebḥen/VPPP yecbeḥ/VP ./PNT
+yerna/VP -d/PDS ussan/NMC -agi/PAN iɛeddan/VPPP yiwen/NC n/PP udlis/NMC n/PP tmaziɣt/NMC ,/PNCT d/PREAL ayen/PRI ara/PRPT d-/PDP yernun/VPPP abaɣur/NMC i/PRP tutlayt/NMC -agi/PAN n/PP tyemmat/NMC ./PNT
+d/PREAL Mass/NMC Ḥmed/NMP Nekkar/NMP ,/PNCT i/PRL d-/PDP yuran/VPPP adlis/NMC -agi/PAN iwumi/PRP isemma/VP s/PRP tefransist/NMC “/PNCT Apprendre/MET tamazight/MET maintenant/MET ”/PNCT neɣ/CC s/PRP tmaziɣt/NMC “/PNCT Selmed/VAI tamaziɣt/NMC tura/ADV ”/PNCT ,/PNCT i/PRL d-/PDP yessuffeɣ/VP ɣer/PRP tezrigin/NMC Tamagit/NMP ./PNT
+ad/PRA yaru/VAF ayen/PRI yufa/VP ./PNCT
+yura/VP di/PRP lkaɣeḍ/NMC ./PNT
+yuli/VP ar/PRP taddart/NMC n/PRP ufella/NMC ./PNCT
+ad/PRA yelqeḍ/VAF azemmur/NMC azekka/NMC ./PNT
+ad/PRA yebɣu/VAF ad/PRA yernu/VAF ad/PRA yaru/VAF adlis/NMC ./PNT
