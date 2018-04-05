@@ -5,48 +5,15 @@ import pylab
 
 G = nx.MultiDiGraph()
 #list of kabyle tags
-tags=[
-('NC',0,()),
-('CC',0,()),
-('CS',0,()),
-('MET',0,()),
-('PRP',0,()),
-('PPA',0,()),
-('PAN',0,()),
-('PAP',0,()),
-('PSV',0,()),
-('PPV',0,()),
-('PRD',0,()),
-('PRI',0,()),
-('NMC',0,()),
-('NMP',0,()),
-('ADV',0,()),
-('ADJ',0,()),
-('VAI',0,()),
-('VAF',0,()),
-('VP',0,()),
-('VPN',0,()),
-('PA',0,()),
-('VPPP',0,()),
-('VPPN',0,()),
-('VII',0,()),
-('VAI',0,()),
-('VPAIP',0,()),
-('VPAIN',0,()),
-('PRN',0,()),
-('PRP',0,()),
-('PRA',0,()),
-('PDS',0,()),
-('PDP',0,()),
-('PNT',0,()),
-('INT',0,()),
-('$',0,()),
-('%',0,()),
-('PNCT',0,()),
-('PADJ',0,()),
-('PREAL',0,()),
-('PRL',0,())
-]
+tags=[]
+i=0
+#extraction du tableau des tags
+for ligne in open("c:/tal/tegspos.txt",encoding='utf-8'):
+     a=ligne.replace('\n',"")
+     if (i!=0):
+      b=(a,0,())
+      tags.append(b)
+     i=i+1
 
 edges=[]    # Edges list
 #this function renders the tag index in the tags kab array
@@ -67,17 +34,36 @@ def index_of_tag(tag):
 
 
 regexp ='[-A-Zḍčǧḥṛṣẓṭţɣɛ« ».,:1-9a-z]+/[A-Z]+' # regular expression to retreive the couple (tagged wor/tag)
-text="Tukkist/NMC seg/PRP ungal/NMC «/PNCT iḍ/NMC d/CC wass/NMC »/PNCT sɣur/PRP ɛ.Mezdad/NMP ./PNT Tasa/NMC ur/PRN tessager/VAF yiwen/NC ./PNT Maca/CS d/PREAL win/PRD i/PRP d-/PDP yufraren/VPPP gar/PRP tarwa/NMC -s/PAN ./PNT D/PREAL win/PRD i/PRL tḥemmel/VP aṭas/ADV ./PNT Ur/PRN tuksan/VPN ara/PRN ./PNT D/PREAL win/PRD i/PRL d/PREAL amenzu/NMC i/PRD tessider/VP ./PNT Ula/ADV d/PREAL tuccent/NMC deg/PRP umadaɣ/NMC yezga/VP yiwen/NC gar/PRP tarwa/NMC -s/PAN yufrar/VP -d/PDP ɣef/PRP wiyaḍ/PRI ./PNT Qqaren/VAI d/PREAL ddnub/NMC ɣef/PRP tasa/NMC ma/CC ur/PRN tessaɛdel/VPN tarwa/NMC -s/PAN ,/PNCT ma/CC tella/VP tneḥyaft/VP gar/PRP -asen/PAP ./PNT Neţat/PPA ddnub/NMC ur/PRN t-/PPV tewwi/VPN ara/PRN :/PNCT d/PREAL ayen/PRI ara/PRP yečč/PA wa/PRD i/PRL teţen/VAI wiyaḍ/PRI ./PNT D/PREAL ayen/PRI ara/PRP yels/PA i/PRL ţlusun/VAI daɣen/ADV ./PNT  Asmi/CS meẓẓiy/ADJ d/PREAL amaɛlal/NMC kan/ADV ,/PNCT yeṛwa/VP lehlak/NMC d/PREAL axessar/NMC ./PNT Ulac/ADV aṭṭan/NMC ur/PRN t-/PPV nebla/VPPN Ussan/NMC imenza/NMC mi/CS d-/PDP ilul/VP yedla/VP -d/PDS fell/PRP -as/PAP unezyuf/NMC ,/PNCT yečča/VP -yas/PSV yakk/ADV timeccacin/NMC -is/PAN ./PNT"
+
+text=""
+#Construction du texte global
+first=0
+for ligne in open("c:/tal/corpuspos.txt",encoding='utf-8'):
+    if (first!=0):
+     text=text+ligne
+    first=1
+
+
+text=text.replace('\n'," ")
 text=text.replace("  "," ")
 text=text.replace("   "," ")
+text=text.replace("\ufeff","")
 a=text.split(" ")
 i=0
 start=0
+b=''
 while i<len(a)-1:
-
+    iii=b
+    #récupérer la paire mot tag
     b=a[i].split("/")  #split a couple
-    print (b[1])
-    tuplea=tags[index_of_tag(b[1])] #look for the index of the tag
+    #print (b[1])
+
+    try:
+
+     tuplea=tags[index_of_tag(b[1])] #look for the index of the tag
+    except:
+        print (b,iii,'here',b)
+        exit()
     #print (tuple)
     number=tuplea[1]+1#increment the tag count
     tuple_tag=tuplea[2]
@@ -94,9 +80,14 @@ while i<len(a)-1:
         edges.append(('Start->'+b[1],1))
         start=1
     elif (start==0):
-        G.add_edges_from([('Start',c[1])], weight=0) # edge start -> next word after a dot .
-        start=1
-        edges.append(('Start->'+c[1],1))
+        try:
+         G.add_edges_from([('Start',c[1])], weight=0) # edge start -> next word after a dot .
+         start=1
+         edges.append(('Start->'+c[1],1))
+        except:
+            print(c,b,iii)
+            exit()
+
 
     elif (c[1]=='PNT'):
 
@@ -117,8 +108,9 @@ while i<len(a)-1:
 
 G.add_edges_from([(c[1],'Stop')], weight=0) # create and edge between two neighbours
 edges.append((c[1]+'->Stop',1))
-
 tuplea=tags[index_of_tag(c[1])]
+
+
 number=tuplea[1]+1
 tuple_tag=tuplea[2]
 list_a=list(tuple_tag)
@@ -126,7 +118,7 @@ list_a.append(c[0])
 tuple_tag=tuple(list_a)
 tags[index_of_tag(c[1])]=(tuplea[0],number,tuple_tag)
 
-
+print (tags)
 val_map = {}
 values = [val_map.get(node, 0.45) for node in G.nodes()]
 edge_labels=dict([((u,v,),d['weight'])
@@ -201,7 +193,6 @@ plt.show()
 edges_probabilities=[]
 
 edges_probabilities=[[x,edges.count(x)] for x in set(edges)]
-#print (t)
 
 
 
@@ -209,11 +200,9 @@ edges_probabilities=[[x,edges.count(x)] for x in set(edges)]
 
 for i in edges_probabilities:
     edges_probabilities[edges_probabilities.index(i)]=(i[0],i[1]/len(edges))
+    #print(i[0][0],'+',i[1])
 
-for i in edges_probabilities :
-    print (i)
 
-print ('_________________')
 
 x = np.arange(len(tags))
 valeurs=[]
@@ -223,7 +212,7 @@ while i< len (edges_probabilities):
     if (edges_probabilities[i][1] != 0):
         valeurs.append(edges_probabilities[i][1]*100)
         symbols.append(edges_probabilities[i][0][0])
-        print (edges_probabilities[i][1]*100,"<-",edges_probabilities[i][0][0])
+
     i=i+1
 
 x = np.arange(len(valeurs))
@@ -232,3 +221,41 @@ plt.xticks(x+.1, symbols);
 plt.ylabel('Probabilité')
 plt.xlabel('Transitions')
 plt.show()
+#print ('yes')
+
+#calcul de la matrice de probabilité
+
+
+
+probablilities = []
+line=[]
+l=0
+for i in tags:
+    k=0
+    line=[]
+    for j in tags:
+        line.append(0)
+        k=k+1
+    probablilities.append(line)
+    l=l+1
+
+x=0
+for j in edges_probabilities:
+            x=a
+            a=j[0][0].split("->")
+            print (j,'-> ',index_of_tag(a[0]))# print (j[1])
+            try:
+             probablilities[index_of_tag(a[0])][index_of_tag(a[1])]=j[1]
+            except:
+                print (x,a,a[0],'->',a[1],j[1])
+                exit()
+
+for i in probablilities:
+    k=0
+    x=0
+    for j in i:
+        x=j+x
+
+        #print (x)
+
+print (edges_probabilities)
