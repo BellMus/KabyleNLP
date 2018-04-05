@@ -1,11 +1,15 @@
 import nltk
 import sys
 
+# tafelwit igebren tiyuga awal/tacreḍt n wawal
 kab_tags_words1 = [ ]
 
+# aḍris n ulmad
 text=""
+#izirig deg uḍris
 ligne=""
 first=0
+# asali n uḍris n ulmad i ulguritm
 for ligne in open("c:/tal/corpuspos.txt",encoding='utf-8'):
     if (first!=0):
      kab_tags_words1.append( ("START", "START") )
@@ -27,38 +31,32 @@ for ligne in open("c:/tal/corpuspos.txt",encoding='utf-8'):
 
 
 
-# conditional probability distribution
+# caclcul de la distribution des probabilités conditionnelles de la succession des étiquettes (classes grammaticales en kabyle)
 
 cfd_tagwords = nltk.ConditionalFreqDist(kab_tags_words1)
-# conditional probability distribution
+
 cpd_tagwords = nltk.ConditionalProbDist(cfd_tagwords, nltk.MLEProbDist)
 
+# anadi n ticraḍ yellan deg uḍris
+
 kab_tags = [tag for (tag, word) in kab_tags_words1 ]
+
+# asiḍen n tseqqaṛ n umseḍfer n ticraḍ
 cfd_tags= nltk.ConditionalFreqDist(nltk.bigrams(kab_tags))
 
 cpd_tags = nltk.ConditionalProbDist(cfd_tags, nltk.MLEProbDist)
 
 
 distinct_tags = set(kab_tags)
-#print (distinct_tags,'!!!!!!')
+
+# anadi n ticraḍ n tefyir ur yettwacerḍen ara
 
 tafyirt = "ad yebɣu aman , ad yernu aɣrum ass -agi neɣ azekka . "
 sentence = tafyirt.split()
-#sentence = ["iɣil", "yektil", "her", "duck" ]
 sentlen = len(sentence)
 
-# viterbi:
-# for each step i in 1 .. sentlen,
-# store a dictionary
-# that maps each tag X
-# to the probability of the best tag sequence of length i that ends in X
 viterbi = [ ]
 
-# backpointer:
-# for each step i in 1..sentlen,
-# store a dictionary
-# that maps each tag X
-# to the previous tag in the best tag sequence of length i that ends in X
 backpointer = [ ]
 
 first_viterbi = { }
@@ -69,14 +67,12 @@ for tag in distinct_tags:
     first_viterbi[ tag ] = cpd_tags["START"].prob(tag) * cpd_tagwords[tag].prob( sentence[0] )
     first_backpointer[ tag ] = "START"
 
-print(first_viterbi)
-print(first_backpointer)
 
 viterbi.append(first_viterbi)
 backpointer.append(first_backpointer)
 
 currbest = max(first_viterbi.keys(), key = lambda tag: first_viterbi[ tag ])
-print( "Word", "'" + sentence[0] + "'", "current best two-tag sequence:", first_backpointer[ currbest], currbest)
+print( "Awal", "'" + sentence[0] + "'", "Agzum n umseḍfaṛ n 2 n ticraḍ ifazen:", first_backpointer[ currbest], currbest)
 # print( "Word", "'" + sentence[0] + "'", "current best tag:", currbest)
 
 for wordindex in range(1, len(sentence)):
@@ -114,7 +110,7 @@ for wordindex in range(1, len(sentence)):
         this_backpointer[ tag ] = best_previous
 
     currbest = max(this_viterbi.keys(), key = lambda tag: this_viterbi[ tag ])
-    print( "Word", "'" + sentence[ wordindex] + "'", "current best two-tag sequence:", this_backpointer[ currbest], currbest)
+    print( "Awal ", "'" + sentence[ wordindex] + "'", "Agzum ifazen iwatan n 2 n ticraḍ:", this_backpointer[ currbest], currbest)
     # print( "Word", "'" + sentence[ wordindex] + "'", "current best tag:", currbest)
 
 
