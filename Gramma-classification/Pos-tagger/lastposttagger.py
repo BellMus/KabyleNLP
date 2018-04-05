@@ -1,67 +1,49 @@
 import nltk
 import sys
 
-brown_tags_words = [ ]
-brown_tags_words1 = [ ]
+kab_tags_words1 = [ ]
 
 text=""
 ligne=""
 first=0
 for ligne in open("c:/tal/corpuspos.txt",encoding='utf-8'):
     if (first!=0):
-     brown_tags_words1.append( ("START", "START") )
-    #brown_tags_words1.extend([ (tag[:2], word) for (word, tag) in ligne ])
+     kab_tags_words1.append( ("START", "START") )
      ligne=ligne.lower()
      ligne=ligne.replace("\n","")
      a=ligne.split(" ")
 
      for i in a:
         b=i.split("/")
-        brown_tags_words1.append( (b[1],b[0]))
-     brown_tags_words1.append( ("END", "END") )
+        try:
+         kab_tags_words1.append( (b[1],b[0]))
+        except:
+            print (b)
+            exit ()
+     kab_tags_words1.append( ("END", "END") )
     first=1
 
       #split a couple
 
-print (brown_tags_words1)
 
-# conditional frequency distribution
-cfd_tagwords = nltk.ConditionalFreqDist(brown_tags_words1)
-print (cfd_tagwords)
+
+# conditional probability distribution
+
+cfd_tagwords = nltk.ConditionalFreqDist(kab_tags_words1)
 # conditional probability distribution
 cpd_tagwords = nltk.ConditionalProbDist(cfd_tagwords, nltk.MLEProbDist)
 
-cfd_tagwords = nltk.ConditionalFreqDist(brown_tags_words1)
-# conditional probability distribution
-cpd_tagwords = nltk.ConditionalProbDist(cfd_tagwords, nltk.MLEProbDist)
-
-print("tiseqqar akken 'tukkist' ad yili d isem ", cpd_tagwords["nmc"].prob("tukkist"))
-print("tiseqqar akken 'seg' ad yili d tanzeɣt", cpd_tagwords["prp"].prob("seg"))
-print("tiseqqar akken 't-' ad yili d amqim uzwir n umyag", cpd_tagwords["ppv"].prob("t-"))
-kab_tags = [tag for (tag, word) in brown_tags_words1 ]
+kab_tags = [tag for (tag, word) in kab_tags_words1 ]
 cfd_tags= nltk.ConditionalFreqDist(nltk.bigrams(kab_tags))
 
 cpd_tags = nltk.ConditionalProbDist(cfd_tags, nltk.MLEProbDist)
 
-print("Ma nufa-d tazelɣa n tuqqna 'd', tiseqqar n yisem ara tt-id-iḍefren d", cpd_tags["cc"].prob("nmc"))
-print( "Ma nufa-d tazelɣa n tilawt 'd', tiseqqar n yisem ara tt-id-iḍefren d", cpd_tags["preal"].prob("nmc"))
-print( "Ma nufa-d tazelɣa n tilawt 'd', tiseqqar n umyag urmir ara ti-id-iḍefṛen", cpd_tags["preal"].prob("va"))
-
-prob_tagsequence = cpd_tags["START"].prob("prn") * cpd_tagwords["prn"].prob("ur") * \
-    cpd_tags["prn"].prob("vpn") * cpd_tagwords["vpn"].prob("tuksan") * \
-    cpd_tags["vpn"].prob("prn") * cpd_tagwords["prn"].prob("ara") * \
-    cpd_tags["prn"].prob("pnt") * cpd_tagwords["pnt"].prob(".") * \
-    cpd_tags["pnt"].prob("END")
-
-
-print( "Taseqqart n 'START prn vpn prn END' i 'Ur tuksan ara.:", prob_tagsequence)
-
-#---------------------
 
 distinct_tags = set(kab_tags)
 #print (distinct_tags,'!!!!!!')
 
-sentence = ["yenwa", "ad", "yeffeɣ","."]
+tafyirt = "ad yebɣu aman , ad yernu aɣrum ass -agi neɣ azekka . "
+sentence = tafyirt.split()
 #sentence = ["iɣil", "yektil", "her", "duck" ]
 sentlen = len(sentence)
 
@@ -168,12 +150,10 @@ for bp in backpointer:
     current_best_tag = bp[current_best_tag]
 
 best_tagsequence.reverse()
-print( "The sentence was:", end = " ")
+print( "Agzum d:", end = " ")
 for w in sentence: print( w, end = " ")
 print("\n")
-print( "The best tag sequence is:", end = " ")
+print( "Agzum n ticraḍ ifazen :", end = " ")
 for t in best_tagsequence: print (t, end = " ")
 print("\n")
-print( "The probability of the best tag sequence is:", prob_tagsequence)
-
-
+print( "Tiseqqaṛ n ugzum ifazen d:", prob_tagsequence)
