@@ -8,7 +8,7 @@ G = nx.MultiDiGraph()
 tags=[]
 i=0
 #extraction du tableau des tags
-for ligne in open("c:/tal/tegspos.txt",encoding='utf-8'):
+for ligne in open("c:/tal/tagspos.txt",encoding='utf-8'):
      a=ligne.replace('\n',"")
      if (i!=0):
       b=(a,0,())
@@ -74,7 +74,9 @@ while i<len(a)-1:
     tuple_tag=tuple(list_a)
     tags[index_of_tag(b[1])]=(tuplea[0],number,tuple_tag)# update une tag count
     c=a[i+1].split("/") # this is for the last couple word/tag
-
+    if (len(c)!=2):
+        print (c)
+        exit()
     if(start==0) and (i==0): # the first start edge : First word in the text or the first edge after a dot
         G.add_edges_from([('Start',b[1])], weight=0)
         edges.append(('Start->'+b[1],1))
