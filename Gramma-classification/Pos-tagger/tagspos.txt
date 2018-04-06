@@ -35,8 +35,10 @@ Start
 Stop
 VAF
 VAI
+VAIT
 VII
 VP
+VPA
 VPAIN
 VPAIP
 VPN
@@ -45,3 +47,4 @@ VPPP
 VS
 PP
 PRPT
+DET
