@@ -127,3 +127,11 @@ Ma/CS nger/VP tiṭ/NMC gar/PRP yisebtar/NMC n/PP udlis/NMC -agi/PAN ,/PNCT ad/P
 D/PREAL adlis/NMC n/PP 190/NCM n/PP yisebtar/NMC ,/PNCT i/PRL d-/PDP yeffɣen/VPPP deg/PRP tazwara/NMC n/PP useggas/NMC -agi/PAN n/PP 2018/NCM ,/PNCT yettnuzu/VPAIP s/PRP wazal/NMC n/PP 800.00/NCM DZD/$ deg/PRP tnedlisin/NMC ./PNT
 Ɣer/PRP taggara/NMC ,/PNCT nezmer/VP ad/PRA d-/PDP ninni/VAF belli/ADV d/PREAL idlisen/NMC yecban/VPPP wagi/PRD i/PRL teḥwaǧ/VP ass/NMC -agi/PAN tmaziɣt/NMC ,/PNCT i/PRP usnerni/NMC -ines/PAN d/CC uselmed/NMC -ines/PAN i/PRP wid/PRD ur/PRN tt-/PSV nettmeslay/VPAIN ara/PRN ./PNT
 d/PREAL netta/PPA i/PRL yennan/VPPP tidet/NMC ./PNT
+Tebɛed/VP taddart/NMC Iɣil/NMP Mḥend/NMP ɣef/PRP tɣiwant/NMC n/PP Ait/NMP chafaa/NMP s/PRP wazal/NMC n/PP 12/NCM Km/NMC ./PNT
+Tamuɣli/NMC si/PRP taddart/NMP -a/PAN srid/ADV ɣer/PRP yilel/NMC ,/PNCT tezga/VP -d/PDS di/PRP temdint/NMC n/PP Uzeffun/NMP ,/PNCT tesɛa/VP amekkan/NMC -is/PAN deg/PRP umezruy/NMC n/PP tmurt/NMC ./PNT
+yewwi/VP -d/PDS ifki/NMC s/PRP 10.00/NCM DZD/$ ./PNT
+kečč/PPA teččiḍ/VP nekk/PPA qqimeɣ/VP ./PNT
+kečč/PPA d/CC nekk/PPA d/PREAL irgazen/NMC ./PNT
+netta/PPA d/CC kečč/PPA d/PREAL irgazen/NMC ./PNT
+Akken/CS i/PRL d-/PDS ḥekkun/VPPP yimezdaɣ/NMC -is/PAN ,/PNCT aṭas/ADV n/PP yiserdassen/NMC n/PP Cix/NMP Aḥeddad/NMP i/PRL yettwameḍlen/VPPP di/PRP taddart/NMC -a/PAN ,/PNCT di/PRP lwaqt/NMC -nni/PAN n/PP tegrawla/NMC ./PNT
+d/PREAL nutni/PPA i/PRL ibedden/VPPP ɣer/PRP gma/NMC -tsen/PAN ./PNT
