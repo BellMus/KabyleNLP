@@ -44,7 +44,7 @@
 
     VPN                                        Verbe Prétérit négatif (ur + prétérit négatif+ ara)
 
-    PA                                           Verbe Participe aoriste (ara + participe aoriste) 
+    VPA                                           Verbe Participe aoriste (ara + participe aoriste) 
 
     VPPP                                      Verbe Participe du prétérit positif
 
@@ -52,7 +52,7 @@
 
     VII                                            Verbe Impératif intensif
 
-    VAI                                           Verbe Aoriste intensif
+    VAIT                                           Verbe Aoriste intensif
 
     VPAIP                                      Verbe Participe aoriste intensif positif
 
@@ -62,7 +62,7 @@
 
     PRN                                        Particule de négation                ara ur
 
-    PRPT                                        Particule de participe                ara
+    PRPT                                      Particule de participe                ara
 
     PRA                                        Particule de l'aoriste                 ad
 
@@ -90,4 +90,6 @@
 
     ADJ                                        Adjectif
 
-    PP                                          Particule de propriété
+    PP                                          Particule de propriété n  n tmurt
+
+    DET                                        Déterminant yal
