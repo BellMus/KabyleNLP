@@ -135,3 +135,18 @@ kečč/PPA d/CC nekk/PPA d/PREAL irgazen/NMC ./PNT
 netta/PPA d/CC kečč/PPA d/PREAL irgazen/NMC ./PNT
 Akken/CS i/PRL d-/PDS ḥekkun/VPPP yimezdaɣ/NMC -is/PAN ,/PNCT aṭas/ADV n/PP yiserdassen/NMC n/PP Cix/NMP Aḥeddad/NMP i/PRL yettwameḍlen/VPPP di/PRP taddart/NMC -a/PAN ,/PNCT di/PRP lwaqt/NMC -nni/PAN n/PP tegrawla/NMC ./PNT
 d/PREAL nutni/PPA i/PRL ibedden/VPPP ɣer/PRP gma/NMC -tsen/PAN ./PNT
+D/PREAL ayen/PRI yessefraḥen/VPPP wayen/PRI ixeddem/VPAIP umsideg/NMC aqbayli/NMC Muḥend/NMP Belqasem/NMP deg/PRP umaḍal/NMC n/PP usideg/NMC n/PP tɣerɣar/NMC d/PREAL yifecka/NMC isenselkamen/NMC ɣer/PRP tutlayt/NMC n/PP Mulud/NMP At/NMP Mɛemmer/NMP ./PNT
+Said/NMP yebda/VP tikli/NMC ./PNT
+Ad/PRA nesnemmer/VAF irgazen/NMC iqeddcen/VPPP deg/PRP tussna/NMC tasenselkamt/NMC icudden/VPPP ar/PRP tutlayt/NMC taqbaylit/NMC ./PNT
+adlis/NMC -agi/PAN yura/VP s/PRP teqbaylit/NMC ./PNT
+Deg/PRP umecwar/NMC wezzilen/NMC ,/PNCT yessaweḍ/VP yebrez/VP -d/PSV netta/PPA d/CC terbaɛt/NMC -is/PAN s/PRP usili/NMC n/PP tutlayt/NMC taqbaylit/NMC deg/PRP waṭas/ADV n/PP yigrudmawen/NMC web/NMP ./PNT
+Ulamma/CS ,/PNCT llan/VP kra/PRI n/PP yilmeẓiyen/NMC i/PRL iɛerḍen/VPPP ad/PRA gren/VAF deg/PRP wannar/NMC n/PP usideg/NMC s/PRP teqbaylit/NMC ,/PNCT am/CC Yasin/NMP Belkadi/NMP ,/PNCT wanag/CS ur/PRN ssawḍen/VAF ad/PRA d-/PDS ufraren/VPN s/PRP uqeddic/NMC akka/ADV am/CC Muḥend/NMC Belqasem/NMC ./PNT
+win/PRD yessnen/VPPP ad/PRA walin/VAF web/NMP ./PNT
+Imi/CS ma/CS nemmeslay/VP kan/ADV ɣef/PRP tkebbanit/NMC yettwassnen/VPPP Mozilla/NMP ,/PNCT ad/PRA naf/VAF d/PREAL akken/CS Muḥend/NMP Belqasem/NMP ,/PNCT yedda/VP -d/PDP deg/PRP umuɣ/NMC n/PP 100/NCM n/PP yimekkiyen/NMC ifazzen/NMC deg/PRP Mozilla/NMP ,/PNCT rnu/VAI daɣ/ADV yezga/VP -d/PDP deg/PRP umḍiq/NMC wis/ADJ 16/NCM ,/PNCT zdat/PRP waṭas/ADV n/PP yimsidag/NMC seg/PRP umaḍal/NMC merra/ADV ./PNT
+Deg/PRP teɣzi/NMC n/PP umecwar/NMC -is/PAN ar/PRP tura/ADV deg/PRP yigrudmawen/NMC Mozilla/NMP ,/PNCT yessuqel/VP Muḥend/NMP Belqasem/NMP ugar/ADV n/PP 8056/NCM n/PP tewwura/NMC ,/PNCT yerna/VP isumer/VP -d/PDS azal/NMC n/PP 792/NCM nniḍen/PAN ./PNCT
+ssnen/VP tilufa/NMC ./PNT
+ttwalin/VAIT ddunit/NMC ./PNT
+D/PREAL ayen/PRI isehlen/VPPP ala/ADV i/PRL win/PRD yesɛan/VPPP lebɣi/NMC n/PP wul/NMC i/PRP usnerni/NMC n/PP tutlayt/NMC -is/PAN d/PREAL tigin/NMC n/PP waɣan/NMC ameɣnasan/NMC ./PNT
+Muḥend/NMP Belqasem/NMP ,/PNCT akka/ADV tura/ADV ,/PNCT aql/VP -it/PSV d/PREAL ajenyur/NMC deg/PRP inagrawen/NMC isenselkamen/NMC ./PNT
+Ad/PRA d-/PDP nesmekti/VAF d/PREAL akken/CS ,/PNCT ussan/NMC -a/PAN yezrin/VPPP ,/PNCT tuzen/VP -d/PDS tkebbanit/NMC Mozilla/NMP kra/PRI n/PP tɣawsiwen/NMC i/PRP yimsidag/NMC iqbayliyen/NMC ./PNT
+D/PREAL asebɣes/NMC sɣur/PRP -s/PAP i/PRP wid/PRD akk/ADV yettakken/VPAIP akud/NMC -nsen/PAN akken/CS ad/PRA ssiwḍen/VAF Mozilla/NMP i/PRP yal/DET agdud/NMC deg/PRP umaḍal/NMC ./PNT
