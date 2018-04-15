@@ -10,6 +10,8 @@
 
     PRP                                        Préposition                                  d, deg, ɣer, ar, i
 
+    PRPT                                     Particule du prétérit                            ara yawin
+
     PPA                                         Pronom personnel                      nekk, kem, kecc...
 
     PAN                                         Pronom affixe du nom                -nneɣ -iw -w...
@@ -46,15 +48,15 @@
 
     VPA                                           Verbe Participe aoriste (ara + participe aoriste) 
 
-    VPPP                                      Verbe Participe du prétérit positif
+    VPPP                                      Verbe Participe du prétérit positif wid yefkan
 
     VPPN                                      Verbe Participe du prétérit négatif (ur+participe prétérit)
 
     VII                                            Verbe Impératif intensif
 
-    VAIT                                           Verbe Aoriste intensif
+    VAIT                                           Verbe Aoriste intensif                       ttaken
 
-    VPAIP                                      Verbe Participe aoriste intensif positif
+    VPAIP                                      Verbe Participe aoriste intensif positif yettawken
 
     VPAIN                                      Verbe Participe aoriste intensif négatif (ur +PAIN + ara)
 
@@ -93,3 +95,7 @@
     PP                                          Particule de propriété n  n tmurt
 
     DET                                        Déterminant yal
+
+    INTR                                          Interrogatif  anwa, anta, 
+
+    PAINT                                           Pronom affixe d'interrogatif anwa -k, anda-ten?
